@@ -771,7 +771,7 @@ div.up a img:hover {
         right: 50vw;
     }
     nav.side ul li:first-child {
-        margin: -2vh 10vw 0vh 25vw;
+        margin: -3vh 10vw 3vh 25vw;
         padding-left: 11.5vw;
         font-size: 2rem;
         cursor: pointer;
@@ -800,7 +800,7 @@ div.up a img:hover {
         width: 100%;
     }
     section.landing>div:last-child p {
-        bottom: 0;
+        bottom: -4vh;
         transform: rotate(0);
     }
     section.landing>div:last-child p i {
