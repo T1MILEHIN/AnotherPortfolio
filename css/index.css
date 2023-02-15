@@ -859,7 +859,7 @@ div.up a img:hover {
     }
     
     input#radio4:checked ~ div.timi {
-        transform: translateY(-1005px);
+        transform: translateY(-1010px);
     }
     
     input#radio5:checked ~ div.laura {
