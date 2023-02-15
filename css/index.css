@@ -93,7 +93,7 @@ nav.side ul li img {
 }
 
 nav.side ul li:first-child {
-    margin: 0 0 1vh 20vw;
+    margin: -7vh 0 1vh 14.5vw;
     font-size: 2rem;
     cursor: pointer;
 }
@@ -399,7 +399,7 @@ img.award, img.award1, img.award2 {
 }
 
 img.award {
-    left: -4%;
+    left: 1%;
     width: 35%;
     padding: 4%;
     top: -15%;
@@ -635,7 +635,7 @@ footer {
 
 footer>div:first-child {
     text-align: center;
-    line-height: 3;
+    line-height: 2;
 }
 
 footer>div:first-child p:first-child {
@@ -752,7 +752,7 @@ div.up a img:hover {
 
 @media only screen and (max-width:900px){
     div.logo>h2 {
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
     nav.menu {
         display: none;
@@ -761,22 +761,39 @@ div.up a img:hover {
         width: 50vw;
     }
     nav.side ul li {
-        font-size: .6rem;
+        font-size: .7rem;
     }
     nav.side ul li:nth-child(2) {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     nav.side::after {
         left: -50vw;
         right: 50vw;
     }
-    section, header, footer {
-        padding: 3vh 2vw;
+    nav.side ul li:first-child {
+        margin: -2vh 10vw 0vh 25vw;
+        padding-left: 11.5vw;
+        font-size: 2rem;
+        cursor: pointer;
     }
-    section.landing>div:first-child h1,
-    section.landing>div:first-child p:nth-child(3)
-     {
-        font-size: 1rem;
+    section, header, footer {
+        padding: 3vh 4vw;
+    }
+    section.landing {
+        padding: 10vh 4vw 5vh;
+    }
+    section.service {
+        padding: 15vh 4vw;
+    }
+    section.landing>div p:first-child {
+        font-size: 1.2rem;
+    }
+    section.landing>div:first-child h1 {
+        font-size: 1.1rem;
+        margin: 2vh 0;
+    }
+    section.landing>div:first-child p:nth-child(3) {
+        font-size: .8rem;
         margin: 1vh 0;
     }
     section.landing>div:first-child img {
@@ -793,11 +810,28 @@ div.up a img:hover {
     section.service>div ul {
         font-size: 1.2rem;
     }
+    section.service>div:first-child h1,
+    section.skill>div:last-child>h1,
+    section.award>div div:first-child h1,
+    section.testimony>div:last-child>h1,
+    section.partner>div>div:first-child>h1 {
+        font-size: 1.65rem;
+    }
+    section.service>div:first-child p:nth-child(3),
+    section.skill>div:last-child>p:nth-child(3),
+    section.award>div>div:first-child p:last-child,
+    section.partner>div>div:first-child>p:nth-child(3)  {
+        font-size: .9rem;
+        /* border: 1px solid; */
+    }
+    
     section.skill {
         gap: 6vh;
+        padding: 10vh 4vw;
     }
     section.award {
         gap: 8vh;
+        padding: 15vh 4vw;
     }
     section.award>div div img {
         width: 80px;
@@ -807,10 +841,10 @@ div.up a img:hover {
         align-items: center;
     }
     section.award>div>div>div p:first-child {
-        font-size: .8rem;
+        font-size: .9rem;
     }
     section.award>div>div>div p:last-child {
-        font-size: .7rem;
+        font-size: .8rem;
     }
     div.clients>div p {
         font-size: 1.1rem;
@@ -833,8 +867,7 @@ div.up a img:hover {
     }
     section.partner>div {
         gap: 7vh;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
+        padding: 10vh 4vw;
     }
     div.collabo>div h1 {
         font-size: 2rem;
@@ -852,11 +885,10 @@ div.up a img:hover {
         font-size: 1.2rem;
     }
     div.contact>div:first-child p {
-        font-size: 1rem;
-        text-indent: 10px;
+        font-size: .9rem;
     }
     div.contact>div:first-child h3 i {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     form>div:first-child {
         flex-direction: column;
@@ -866,8 +898,20 @@ div.up a img:hover {
         border-radius: 4px;
     }
     div.copyright {
-        font-size: 1rem;
+        font-size: .9rem;
         padding: 3vh 0;
+    }
+    div.hero-form>form>div input {
+        font-size: .9rem;
+    }
+    input::placeholder {
+        font-size: .9rem;
+    }
+    textarea {
+        font-size: .9rem;
+    }
+    form>div button {
+        padding: .5rem 1rem;
     }
 
 }
